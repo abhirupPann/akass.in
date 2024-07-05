@@ -10,21 +10,21 @@ export default function Footer() {
   return (
     <div >
         <div className='px-[10vw] py-[10vh] bg-[#bd5a4b] h-auto w-full flex justify-between font-spaceGrotesk rounded-t-xl border-t-2 border-black overflow-y-hidden'>
-        <div className='contactus flex flex-col gap-16 cursor-default'>
-         <h1 className=' font-lotaReg text-2xl font-medium underline underline-offset-[2vh] decoration-black text-white cursor-default'>Contact Us</h1>
+        <div className='contactus flex flex-col gap-16 cursor-default text-[0.7rem] sm:text-[1rem]'>
+         <h1 className=' font-lotaReg text-base sm:text-2xl font-medium underline underline-offset-[1vh] sm:underline-offset-[2vh] decoration-black text-white cursor-default'>Contact Us</h1>
          <ul className='flex flex-col gap-3'>
             <li className='flex items-center gap-2'><FaLocationDot/> J. K. Mitra Road, Kolkata - 700037</li>
             <li className='flex items-center gap-2'><FaPhone/>9830844624</li>
             <li className='flex items-center gap-2'><MdEmail/>info@akass.in</li>
          </ul>
-         <div className='flex gap-5  text-2xl'>
+         <div className='flex gap-5 text-sm sm:text-2xl'>
            <FaInstagram className=' cursor-pointer'/>
            <FaFacebook className=' cursor-pointer'/>
            <MdEmail className=' cursor-pointer'/>
          </div>
       </div>
-      <div className="quicklinks flex flex-col gap-16 cursor-default">
-      <h1 className=' font-lotaReg text-2xl font-medium underline underline-offset-[2vh] decoration-black text-white cursor-default'>Quick Links</h1>
+      <div className="quicklinks flex flex-col gap-16 cursor-default text-[0.7rem] sm:text-[1rem]">
+      <h1 className=' font-lotaReg text-base sm:text-2xl font-medium underline underline-offset-[1vh] sm:underline-offset-[2vh] decoration-black text-white cursor-default'>Quick Links</h1>
          <ul className='flex flex-col gap-3'>
             <Link to="/"><li className='flex items-center gap-2 cursor-pointer hover:underline hover:underline-offset-8'>Home</li></Link>
             <Link to="/clients"><li className='flex items-center gap-2 cursor-pointer hover:underline hover:underline-offset-8'>Work</li></Link>
@@ -34,7 +34,7 @@ export default function Footer() {
             <Link to="/contactus"><li className='flex items-center gap-2 cursor-pointer hover:underline hover:underline-offset-8'>Enquiry</li></Link>
          </ul>
       </div>
-      <div className="services flex flex-col gap-16 cursor-default">
+      <div className="services  flex-col gap-16 cursor-default hidden sm:block">
       <h1 className=' font-lotaReg text-2xl font-medium underline underline-offset-[2vh] decoration-black text-white cursor-default'>Our Services</h1>
          <ul className='flex flex-col gap-3'>
             <li className='flex items-center gap-2'>Detection System</li>
@@ -43,7 +43,7 @@ export default function Footer() {
          </ul>
       </div>
         </div>
-      <div className="h-[8vh] w-full bg-[#96483c] flex items-center gap-3 text-xl justify-center font-spaceGrotesk cursor-default"><FaRegCopyright /> 2024 Akass Infrastructure Pvt. Ltd. All rights reserved. Developed by Abhirup</div>
+      <div className="h-[8vh] w-full text-sm sm:text-xl bg-[#96483c] flex items-center gap-3  justify-center font-spaceGrotesk cursor-default"><FaRegCopyright /> <span className=' hidden sm:block'>2024 Akass Infrastructure Pvt.</span>  Ltd. All rights reserved. Developed by <a href="https://abhirup-pan-portfolio.vercel.app/" className='hover:underline inline'>Abhirup</a></div>
     </div>
     
   )
