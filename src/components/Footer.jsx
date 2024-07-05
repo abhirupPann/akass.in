@@ -35,7 +35,7 @@ export default function Footer() {
          </ul>
       </div>
       <div className="services  flex-col gap-16 cursor-default hidden sm:block">
-      <h1 className=' font-lotaReg text-2xl font-medium underline underline-offset-[2vh] decoration-black text-white cursor-default'>Our Services</h1>
+      <h1 className=' font-lotaReg text-2xl font-medium underline underline-offset-[2vh] decoration-black text-white cursor-default mb-[10vh]'>Our Services</h1>
          <ul className='flex flex-col gap-3'>
             <li className='flex items-center gap-2'>Detection System</li>
             <li className='flex items-center gap-2'>Protection System</li>

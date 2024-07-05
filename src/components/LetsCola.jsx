@@ -39,7 +39,7 @@ export default function LetsCola() {
     e.preventDefault();
     
     emailjs
-      .sendForm('service_bxh5zsu', 'template_k1bd9v9', form.current, {
+      .sendForm('service_bxh5zsu', 'template_zwrj105', form.current, {
         publicKey: 'vFMU0Sp9Nc7jdm96k',
       })
       .then(
@@ -55,13 +55,13 @@ export default function LetsCola() {
   return (
     <div className=' px-[7.5vw] pt-[10vh]' ref={component}>
       <h1 className=' font-lotaReg text-2xl font-medium underline underline-offset-[2vh] decoration-red-500 cursor-default '>Quick Enquiry</h1>
-      <p className='font-spaceGrotesk my-[10vh]'>AKASS INFRASTUCTURE PVT LTD is dedicated to "Innovation and Excellence" in all aspects of our service. With a firm belief in delivering flexible solutions, backed by superior service excellence, cutting-edge technology, and practical experience, we stand as distributors of TYCO safety products across Pan India.
+      <p className='font-spaceGrotesk my-[10vh] text-sm'>AKASS INFRASTUCTURE PVT LTD is dedicated to "Innovation and Excellence" in all aspects of our service. With a firm belief in delivering flexible solutions, backed by superior service excellence, cutting-edge technology, and practical experience, we stand as distributors of TYCO safety products across Pan India.
 
      With nearly two decades of experience, formerly under the name DAKS Fire & Safety Corporation since 2007, we have consistently demonstrated our commitment to innovation, technological leadership, and the highest standards of product quality and support. Our track record speaks for itself, showcasing our ability to analyze, develop, and deliver solutions that exceed expectations.
 
-    As we transition to AKASS INFRASTUCTURE PVT LTD, effective from 01/06/2013, we reaffirm our dedication to providing cost-effective solutions tailored to your specific needs. Our team of well-trained and experienced professionals is poised to deliver the highest level of service, ensuring your utmost satisfaction.
-
-   We are eager to serve you and are confident that our services will meet and exceed your expectations. We look forward to the opportunity to discuss how AKASS INFRASTUCTURE PVT LTD can support your organization's safety and infrastructure needs.</p>
+    As we transition to AKASS INFRASTUCTURE PVT LTD, effective from 01/06/2013, we reaffirm our dedication to providing cost-effective solutions tailored to your specific needs. <span className=' hidden sm:block'> Our team of well-trained and experienced professionals is poised to deliver the highest level of service, ensuring your utmost satisfaction.
+  
+    We are eager to serve you and are confident that our services will meet and exceed your expectations. We look forward to the opportunity to discuss how AKASS INFRASTUCTURE PVT LTD can support your organization's safety and infrastructure needs</span>.</p>
       <div className="email">
         
       <form ref={form} onSubmit={sendEmail} className=' letscolab flex flex-col gap-4 font-spaceGrotesk rounded-bl-3xl rounded-br-3xl bg-red-500 h-[65vh] justify-center pl-[40vw] pr-[10vw] shadow-md border-black border-2 relative'>
@@ -91,25 +91,25 @@ export default function LetsCola() {
       <h1 className=' font-lotaReg text-2xl font-medium underline underline-offset-[2vh] decoration-red-500 cursor-default my-[10vh]'>Customer Support</h1>
       <div className='flex flex-col md:flex-row gap-5 font-spaceGrotesk'>
       <div className='flex flex-col justify-center gap-4 items-center  font-spaceGrotesk bg-red-500 border-black border-2 rounded-br-lg rounded-bl-lg w-[55vw] h-[20vh] md:w-[26.5vw] md:h-[40vh] shadow-lg shadow-gray-500 '>
-        <FaPhone className='text-3xl'/>
+        <FaPhone className='text-base sm:text-3xl'/>
       
-        <h1 className='text-3xl'>Phone</h1>
-        <p className='bg-white px-4 '>Call Us - 9830844624</p>
+        <h1 className='text-base sm:text-3xl'>Phone</h1>
+        <p className='bg-white px-4 text-sm sm:text-base'>Call Us - 9830844624</p>
     
 
       </div>
       <div className=' flex flex-col justify-center gap-4 items-center  font-spaceGrotesk bg-red-500 border-black border-2 rounded-br-lg rounded-bl-lg w-[55vw] h-[20vh] md:w-[26.5vw] md:h-[40vh] shadow-lg shadow-gray-500 '>
-        <MdEmail className='text-3xl'/>
+        <MdEmail className='text-base sm:text-3xl'/>
     
-        <h1 className='text-3xl'>Email</h1>
-        <p className='bg-white px-4 '>Email Us- info@akass.in</p>
+        <h1 className='text-base sm:text-3xl'>Email</h1>
+        <p className='bg-white px-4 text-sm sm:text-base'>Email Us- info@akass.in</p>
    
 
       </div>
       <div className=' flex flex-col justify-center gap-4  items-center  font-spaceGrotesk bg-red-500 border-black border-2 rounded-br-lg rounded-bl-lg w-[55vw] h-[20vh] md:w-[26.5vw] md:h-[40vh] shadow-lg shadow-gray-500 '>
-        <FaLocationDot className='text-3xl'/>
-        <h1 className='text-3xl'>Address</h1>
-        <p className='bg-white px-4'>40A/1 J. K. Mitra Road, Kolkata - 700037</p>
+        <FaLocationDot className='text-base sm:text-3xl'/>
+        <h1 className='text-base sm:text-3xl'>Address</h1>
+        <p className='bg-white px-4 text-sm sm:text-base'>40A/1 J. K. Mitra Road, Kolkata - 700037</p>
       </div>
       </div>
       <h1 className=' font-lotaReg text-2xl font-medium underline underline-offset-[2vh] decoration-red-500 cursor-default my-[10vh]'>Google Maps</h1>
