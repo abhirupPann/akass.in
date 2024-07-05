@@ -1,0 +1,6 @@
+export {default as Nav} from "./Nav.jsx"
+export {default as Home} from "./Home.jsx"
+export {default as Services} from "./Services.jsx"
+export {default as Industry} from "./Industry.jsx"
+export {default as Overview} from "./Overview.jsx"
+export {default as Clients} from "./Clients.jsx"

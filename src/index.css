@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "FSP DEMO -Agent CF";
+    src: url(./assets/fonts/Fontspring-DEMO-argentcf-bold.otf);
+  }
+
+  @font-face {
+    font-family: "Sf Pro Text";
+    src: url(./assets/fonts/sf-pro-text-regular.ttf);
+  }
+
+  @font-face {
+    font-family: "LotaGrotesqueAlt1-Regular";
+    src: url(./assets/fonts/Lota\ Grotesque\ Alt\ 1\ Regular.otf);
+  }
+
