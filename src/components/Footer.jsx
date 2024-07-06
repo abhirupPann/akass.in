@@ -13,7 +13,7 @@ export default function Footer() {
         <div className='contactus flex flex-col gap-16 cursor-default text-[0.7rem] sm:text-[1rem]'>
          <h1 className=' font-lotaReg text-base sm:text-2xl font-medium underline underline-offset-[1vh] sm:underline-offset-[2vh] decoration-black text-white cursor-default'>Contact Us</h1>
          <ul className='flex flex-col gap-3'>
-            <li className='flex items-center gap-2'><FaLocationDot/> J. K. Mitra Road, Kolkata - 700037</li>
+            <li className='flex items-center gap-2'><FaLocationDot/>Nandalaya,Ground Floor,29/1, Andul Road, P.O. : Danesh Seikhk Lane.</li>
             <li className='flex items-center gap-2'><FaPhone/>9830844624</li>
             <li className='flex items-center gap-2'><MdEmail/>info@akass.in</li>
          </ul>

@@ -56,7 +56,7 @@ function Nav() {
   return (
     <Headroom style={{transition: 'all .5s ease-in-out'}}>
     <div className={`w-screen relative h-[10vh] px-[5vw] text-sm md:text-lg flex items-center justify-between font-lotaReg text-[#393939] bg-white  ${scrollPosition===0 ? "bg-white": "backdrop-blur-3xl bg-white/50"}`}>
-      <div className="cursor-pointer ">
+      <div className="cursor-pointer pt-[4vh]">
          <Link to="/"><img src={logo} alt="" className=" w-[100px] md:w-[250px] "/></Link>
       </div>
       <div ref={content} >

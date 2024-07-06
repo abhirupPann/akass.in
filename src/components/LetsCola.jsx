@@ -109,7 +109,7 @@ export default function LetsCola() {
       <div className=' flex flex-col justify-center gap-4  items-center  font-spaceGrotesk bg-red-500 border-black border-2 rounded-br-lg rounded-bl-lg w-[55vw] h-[20vh] md:w-[26.5vw] md:h-[40vh] shadow-lg shadow-gray-500 '>
         <FaLocationDot className='text-base sm:text-3xl'/>
         <h1 className='text-base sm:text-3xl'>Address</h1>
-        <p className='bg-white px-4 text-sm sm:text-base'>40A/1 J. K. Mitra Road, Kolkata - 700037</p>
+        <p className='bg-white px-4 text-sm sm:text-base'>Nandalaya,Ground Floor,29/1, Andul Road, P.O. : Danesh Seikhk Lane.</p>
       </div>
       </div>
       <h1 className=' font-lotaReg text-2xl font-medium underline underline-offset-[2vh] decoration-red-500 cursor-default my-[10vh]'>Google Maps</h1>
