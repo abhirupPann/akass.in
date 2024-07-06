@@ -55,7 +55,7 @@ export default function LetsCola() {
   return (
     <div className=' px-[7.5vw] pt-[10vh]' ref={component}>
       <h1 className=' font-lotaReg text-2xl font-medium underline underline-offset-[2vh] decoration-red-500 cursor-default '>Quick Enquiry</h1>
-      <p className='font-spaceGrotesk my-[10vh] text-sm'>AKASS INFRASTUCTURE PVT LTD is dedicated to "Innovation and Excellence" in all aspects of our service. With a firm belief in delivering flexible solutions, backed by superior service excellence, cutting-edge technology, and practical experience, we stand as distributors of TYCO safety products across Pan India.
+      <p className='font-spaceGrotesk my-[10vh] text-sm sm:text-base'>AKASS INFRASTUCTURE PVT LTD is dedicated to "Innovation and Excellence" in all aspects of our service. With a firm belief in delivering flexible solutions, backed by superior service excellence, cutting-edge technology, and practical experience, we stand as distributors of TYCO safety products across Pan India.
 
      With nearly two decades of experience, formerly under the name DAKS Fire & Safety Corporation since 2007, we have consistently demonstrated our commitment to innovation, technological leadership, and the highest standards of product quality and support. Our track record speaks for itself, showcasing our ability to analyze, develop, and deliver solutions that exceed expectations.
 
@@ -113,7 +113,7 @@ export default function LetsCola() {
       </div>
       </div>
       <h1 className=' font-lotaReg text-2xl font-medium underline underline-offset-[2vh] decoration-red-500 cursor-default my-[10vh]'>Google Maps</h1>
-      <div className='my-[10vh] h-[80vh]'><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.4061851789907!2d88.28717407519771!3d22.563906679497922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027854a7d7390d%3A0xdf5af48ab788bbf!2sShalimar%2C%20Howrah%2C%20West%20Bengal%20711103!5e0!3m2!1sen!2sin!4v1715015242635!5m2!1sen!2sin" width="100%" height="100%"   loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      <div className='my-[10vh] h-[80vh]'><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14737.593189926798!2d88.27335823463314!3d22.564201875030378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02790074224751%3A0xffd85d225a177e3a!2sDanesh%20Sheikh%20Lane!5e0!3m2!1sen!2sin!4v1720245217796!5m2!1sen!2sin"  className=' w-full h-[70vh]' style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 
     </div>
   )
